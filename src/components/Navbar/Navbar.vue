@@ -43,7 +43,7 @@
                 </b-dropdown-item>
                 <b-dropdown-divider></b-dropdown-divider>
                 <b-dropdown-item>
-                  <router-link to="/register" class="link">Registeration</router-link>
+                  <router-link to="/register" class="link">Registration</router-link>
                 </b-dropdown-item>
               </div>
               <div v-else>
