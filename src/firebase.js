@@ -2,7 +2,7 @@ import firebase from "firebase/app";
 import "firebase/firestore";
 import "firebase/firebase-auth";
 import "firebase/storage";
-import { config } from "./common/config.js";
+import { config } from "./common/config";
 import { router } from "./router/routes";
 
 firebase.initializeApp(config);
