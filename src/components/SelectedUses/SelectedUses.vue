@@ -29,25 +29,38 @@
               </button>
             </div>
           </div>
-          <div class="mt-5 row align-items-center justify-content-center">
-            <table class="table table-striped text-center col-9" id="firstTable">
-              <tbody>
-                <tr class v-for="showDetails in show.info" :key="showDetails.id">
-                  <td>{{showDetails.date}}</td>
-                  <td>{{showDetails.time}}</td>
-                  <td>{{showDetails.cost}}</td>
-                  <td>
-                    <button @click="buyTicketForSelectedUses(showDetails.id, showName)">Buy Ticket</button>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+          
+          <div class="container contact">
+            <form>
+              <p class="h4 text-center mb-4">Spending limits</p>
+              <label for="defaultFormContactNameEx" class="grey-text">Amount</label>
+              <input type="text" id="defaultFormContactNameEx" class="form-control" />
+              <br />
+              <label for="defaultFormContactEmailEx" class="grey-text">Budget</label>
+              <custom-slider
+                :values="sliderValues"
+                min="0"
+                max="100"
+                raising
+                v-model="slider"
+              ></custom-slider>
+              <!-- remember to set v-model -->
+              {{ slider }}
+              <br />
+              <label for="defaultFormContactSubjectEx" class="grey-text">Location</label>
+              <input type="text" id="defaultFormContactSubjectEx" class="form-control" />
+              <br />
+              <label for="defaultFormContactMessageEx" class="grey-text">Your message</label>
+              <textarea type="text" id="defaultFormContactMessageEx" class="form-control" rows="3"></textarea>
+              <div class="text-center mt-4">
+                <button class="btn btn-outline-warning" type="submit">
+                  Send
+                  <i class="far fa-paper-plane ml-2"></i>
+                </button>
+              </div>
+            </form>
           </div>
-          <div class="row align-items-center justify-content-center mt-4">
-            <div class="row align-items-center justify-content-center mt-5 background">
-              <img src="../../assets/restaurant.jpg" class="img-restaurant" alt="Restaurant" />
-            </div>
-          </div>
+          
           <!-- <badger-accordion>
             <badger-accordion-item>
               <template slot="header">First Accordion Header</template>

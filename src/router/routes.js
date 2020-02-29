@@ -4,6 +4,7 @@ import Router from "vue-router";
 
 import HomePage from "../views/HomePage/HomePage.vue";
 import ContactPage from "../views/ContactPage/ContactPage.vue";
+import AccountPage from "../components/AccountPage/AccountPage.vue";
 import Sections from "../components/Sections/Sections.vue";
 import UserLogin from "../views/UserLogin/UserLogin.vue";
 import UserRegistration from "../views/UserRegistration/UserRegistration.vue";
@@ -61,6 +62,11 @@ export const routes = [
     path: "/contact",
     name: "ContactPage",
     component: ContactPage
+  },
+  {
+    path: "/account",
+    name: "AccountPage",
+    component: AccountPage
   },
   {
     path: "/profile",
