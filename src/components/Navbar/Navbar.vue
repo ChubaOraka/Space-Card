@@ -3,7 +3,7 @@
     <nav class="navbar navbar-expand-lg">
       <div class="container">
         <router-link class="navbar-brand" to="/">
-          <font-awesome-icon icon="place-of-worship" class="orius" />Orius Theatre
+          <font-awesome-icon icon="place-of-worship" class="orius" />Space Card
         </router-link>
         <button
           class="navbar-toggler"

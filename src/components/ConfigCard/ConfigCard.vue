@@ -21,7 +21,7 @@
           </div>
           <div class="ml-3">
             <h2 class="title"> {{ use.title }} </h2>
-            <p class="date"> {{ use.date }}
+            <p class="date"> {{ use.dates }}
               <span> {{ use.location }} </span>
             </p>
           </div>
