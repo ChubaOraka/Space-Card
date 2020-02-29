@@ -4,12 +4,15 @@ import allShowsDataJSON from "../../common/currentShowData.json";
 import TheatreNewsletter from "../TheatreNewsletter/TheatreNewsletter.vue";
 import CustomSlider from "vue-custom-range-slider";
 import "vue-custom-range-slider/dist/vue-custom-range-slider.css";
+import LocationPickerInit from 'vue-location-picker/src/init'
+import LocationPicker from 'vue-location-picker'
 
 export default Vue.extend({
   name: "SelectedUses",
   components: {
     TheatreNewsletter,
-    CustomSlider
+    CustomSlider,
+    LocationPicker
   },
   data() {
     return {
@@ -38,8 +41,33 @@ export default Vue.extend({
       ],
       showName: this.$route.params.title,
       allAvailableShows: allShowsDataJSON.availableShowsList,
-      readMore: false
+      readMore: false,
+      place: null // optional
     }
+  },
+  el: 'body',
+  // You need to call the LocationPickerInit(appInstance, configObject, optionsObject)
+  ready () {
+    LocationPickerInit(
+      this,
+
+      // config object
+      {
+        key: 'GoogleMapsApiKey', // required
+        language: 'en-US'        // optional
+      },
+
+      // options object
+      {
+        map: {
+          center: { lat: 0, lng: 0 },
+          /** other map options **/
+        },
+        marker: { /** marker options **/ },
+        infoWindow: { /** info window options **/ },
+        autocomplete: { /** autocomplete options **/ }
+      }
+    )
   },
   methods: {
     buyTicketForSelectedUses(indx, show) {

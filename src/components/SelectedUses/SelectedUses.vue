@@ -48,7 +48,7 @@
               {{ slider }}
               <br />
               <label for="defaultFormContactSubjectEx" class="grey-text">Location</label>
-              <input type="text" id="defaultFormContactSubjectEx" class="form-control" />
+              <location-picker :place.sync="place"></location-picker>
               <br />
               <label for="defaultFormContactMessageEx" class="grey-text">Your message</label>
               <textarea type="text" id="defaultFormContactMessageEx" class="form-control" rows="3"></textarea>
