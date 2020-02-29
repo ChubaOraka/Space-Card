@@ -27,6 +27,7 @@ Vue.component("font-awesome-icon", FontAwesomeIcon);
 firebase.auth().onAuthStateChanged(() => {
   if(!app) {
     app = new Vue({
+      // el: app,
       store,
       router,
       render: h => h(App)

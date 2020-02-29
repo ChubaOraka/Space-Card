@@ -45,7 +45,6 @@ export default Vue.extend({
       place: null // optional
     }
   },
-  el: 'body',
   // You need to call the LocationPickerInit(appInstance, configObject, optionsObject)
   ready () {
     LocationPickerInit(
@@ -53,7 +52,7 @@ export default Vue.extend({
 
       // config object
       {
-        key: 'GoogleMapsApiKey', // required
+        key: 'AIzaSyDPm4yImjDWR38ckMzApWILPYPWhBmiSZU', // required
         language: 'en-US'        // optional
       },
 
