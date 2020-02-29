@@ -4,8 +4,8 @@
       <div class="container-fluid d-flex align-items-center justify-content-center h-100">
         <div class="row d-flex justify-content-center text-center white-text">
           <div class="col col-md-12 text-white text-uppercase font-weight-bold pt-4 mb-2">
-            <h3 class="mb-2">Welcome to the</h3>
-            <h1 class="display-4 font-weight-bold">Orius Theatre</h1>
+            <h1 class="display-1 font-weight-bold">Space Card</h1>
+            <h3 class="mb-2">No pressure, ... Literally!</h3>
           </div>
         </div>
       </div>
