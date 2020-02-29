@@ -1,11 +1,11 @@
 {
     "availableShowsList": [
         {
-          "title": "Swan Lake",
+          "title": "Small business",
           "dates": "Tuesday 15th - Wednesday 31st December 2019",
-          "img": "swanlake.jpg",
+          "img": "smallbusiness.jpg",
           "location": "Auditorium",
-          "alt": "Dancers dancing in Swan Lake",
+          "alt": "Enabling Financial Planning among Small businesses",
           "info": [
             { "id": 0,"date": "Wed 21 oct", "time": "20:00", "cost": "from EU 25,00" },
             { "id": 1,"date": "Thurs 22 oct", "time": "20:00", "cost": "from EU 25,00" },
@@ -14,9 +14,9 @@
           ]
         },
         {
-            "title": "Drummers",
+            "title": "Student finances",
             "dates": "Friday 15th - Wednesday 20th November 2019",
-            "img": "dance.jpg",
+            "img": "studentfinances.jpg",
             "location": "Room II",
             "alt": "People drumming and dancing in Drummers",
             "info": [
@@ -27,9 +27,9 @@
               ]
         },
         {
-            "title": "Symphony II",
+            "title": "Spending Petty Cash",
             "dates": "Tuesday 5th - Wednesday 10th December 2019",
-            "img": "band.jpg",
+            "img": "pettycash.jpg",
             "location": "Auditorium",
             "alt": "Conductor and orchestra in Symphony II",
             "info": [
@@ -40,11 +40,24 @@
               ]
         },
         {
-            "title": "Behind Closed Curtains",
+          "title": "Traveling with friends",
+          "dates": "Tuesday 1 - Wednesday 10 January 2020",
+          "img": "traveling.jpg",
+          "location": "Room I",
+          "alt": "Avoid foodie calls",
+          "info": [
+              { "id": 0,"date": "Wed 21 oct", "time": "21:00", "cost": "from EU 25,00" },
+              { "id": 1,"date": "Thurs 22 oct", "time": "21:00", "cost": "from EU 25,00" },
+              { "id": 2,"date": "Fri 23 oct", "time": "21:00", "cost": "from EU 35,00" },
+              { "id": 3,"date": "Sat 24 oct", "time": "21:00", "cost": "from EU 45,00" }
+            ]
+        },
+        {
+            "title": "Planning dates",
             "dates": "Tuesday 1 - Wednesday 10 January 2020",
-            "img": "acting.jpg",
+            "img": "date.jpg",
             "location": "Room I",
-            "alt": "Silhouettes of actors in front of curtain in Behind Closed Curtains",
+            "alt": "Avoid foodie calls",
             "info": [
                 { "id": 0,"date": "Wed 21 oct", "time": "21:00", "cost": "from EU 25,00" },
                 { "id": 1,"date": "Thurs 22 oct", "time": "21:00", "cost": "from EU 25,00" },
