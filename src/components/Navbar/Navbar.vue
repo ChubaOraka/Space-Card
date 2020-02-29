@@ -19,7 +19,7 @@
         <div class="collapse navbar-collapse" id="navbarcontent text-center">
           <ul class="navbar-nav ml-auto mr-auto">
             <li class="nav-item">
-              <router-link class="nav-link text-uppercase font-weight-bold" to="/tickets">What's On</router-link>
+              <router-link class="nav-link text-uppercase font-weight-bold" to="/config">Configure Card</router-link>
             </li>
             <li class="nav-item">
               <router-link class="nav-link text-uppercase font-weight-bold" to="#">Food & Drink</router-link>

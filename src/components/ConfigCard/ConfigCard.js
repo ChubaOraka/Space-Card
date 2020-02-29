@@ -2,7 +2,7 @@ import Vue from "vue";
 import allShowsDataJSON from "../../common/currentShowData.json";
 
 export default Vue.extend({
-  name: "CalendarPage",
+  name: "ConfigCard",
   data() {
     return {
       search: "",

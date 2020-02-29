@@ -8,7 +8,7 @@ import Sections from "../components/Sections/Sections.vue";
 import UserLogin from "../views/UserLogin/UserLogin.vue";
 import UserRegistration from "../views/UserRegistration/UserRegistration.vue";
 import ProfilePage from "../views/ProfilePage/ProfilePage.vue";
-import CalendarPage from "../components/CalendarPage/CalendarPage.vue";
+import ConfigCard from "../components/ConfigCard/ConfigCard.vue";
 import SelectedShow from "../components/SelectedShow/SelectedShow.vue";
 import ProductList from "../components/ProductList/ProductList.vue";
 import SelectedProduct from "../components/SelectedProduct/SelectedProduct.vue";
@@ -53,9 +53,9 @@ export const routes = [
     redirect: "/login",
   },
   {
-    path: "/tickets",
-    name: "CalendarPage",
-    component: CalendarPage
+    path: "/config",
+    name: "ConfigCard",
+    component: ConfigCard
   },
   {
     path: "/contact",
