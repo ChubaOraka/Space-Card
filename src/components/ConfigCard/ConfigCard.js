@@ -15,10 +15,10 @@ export default Vue.extend({
         return show.title.toLowerCase().includes(this.search.toLowerCase())
       })
     },
-    SelectedUses(show, index) {
+    SelectedUses(use, index) {
       this.$router.push({ 
         name: "SelectedUses", 
-        params: { title: show.title, index: index}
+        params: { title: use.title, index: index}
       });
     }
   }

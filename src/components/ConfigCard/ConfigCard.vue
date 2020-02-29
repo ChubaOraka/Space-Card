@@ -21,9 +21,9 @@
           </div>
           <div class="ml-3">
             <h2 class="title"> {{ use.title }} </h2>
-            <p class="date"> {{ use.dates }}
+            <!-- <p class="date"> {{ use.dates }}
               <span> {{ use.location }} </span>
-            </p>
+            </p> -->
           </div>
           <div class="text-uppercase ml-2">
             <b-button @click="SelectedUses(use, index)" class="btn text-black mt-2 text-uppercase font-weight-bold">Select </b-button> 
