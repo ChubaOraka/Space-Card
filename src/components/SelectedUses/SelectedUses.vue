@@ -37,6 +37,7 @@
               <input type="text" id="defaultFormContactNameEx" class="form-control" />
               <br />
               <label for="defaultFormContactEmailEx" class="grey-text">Budget</label>
+              {{ slider }}
               <custom-slider
                 :values="sliderValues"
                 min="0"
@@ -45,7 +46,6 @@
                 v-model="slider"
               ></custom-slider>
               <!-- remember to set v-model -->
-              {{ slider }}
               <br />
               <label for="defaultFormContactSubjectEx" class="grey-text">Location</label>
               <location-picker :place.sync="place"></location-picker>
