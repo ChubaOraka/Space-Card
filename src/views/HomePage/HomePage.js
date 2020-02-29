@@ -1,11 +1,11 @@
 import Vue from "vue";
-import CurrentShows from "../../components/CurrentShows/CurrentShows.vue";
+import UseCases from "../../components/UseCases/UseCases.vue";
 import TheatreNewsletter from "../../components/TheatreNewsletter/TheatreNewsletter.vue";
 
 export default Vue.extend({
   name: "HomePage",
   components: {
-    CurrentShows,
+    UseCases,
     TheatreNewsletter
   }
 });

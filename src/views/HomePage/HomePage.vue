@@ -10,7 +10,7 @@
         </div>
       </div>
     </div>
-    <CurrentShows />
+    <UseCases />
     <div class="container justify">
       <!-- <h1 class="text-center">About Orius</h1>
       <p class="d-flex justify-content-center pl-5 pr-5">
