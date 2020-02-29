@@ -4,7 +4,7 @@ import allShowsDataJSON from "../../common/currentShowData.json";
 import TheatreNewsletter from "../TheatreNewsletter/TheatreNewsletter.vue";
 
 export default Vue.extend({
-  name: "SelectedShow",
+  name: "SelectedUses",
   components: {
     TheatreNewsletter
   },
@@ -16,7 +16,7 @@ export default Vue.extend({
     }
   },
   methods: {
-    buyTicketForSelectedShow(indx, show) {
+    buyTicketForSelectedUses(indx, show) {
       const currentUser = firebase.auth().currentUser;
       if(!currentUser) {
         // Incomplete: This stills need to query theatre/indx & show name

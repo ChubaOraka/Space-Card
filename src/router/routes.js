@@ -9,7 +9,7 @@ import UserLogin from "../views/UserLogin/UserLogin.vue";
 import UserRegistration from "../views/UserRegistration/UserRegistration.vue";
 import ProfilePage from "../views/ProfilePage/ProfilePage.vue";
 import ConfigCard from "../components/ConfigCard/ConfigCard.vue";
-import SelectedShow from "../components/SelectedShow/SelectedShow.vue";
+import SelectedUses from "../components/SelectedUses/SelectedUses.vue";
 import ProductList from "../components/ProductList/ProductList.vue";
 import SelectedProduct from "../components/SelectedProduct/SelectedProduct.vue";
 import CheckOut from "../views/CheckOut/CheckOut.vue";
@@ -71,9 +71,9 @@ export const routes = [
     }
   },
   {
-    path: "/shows/:title",
-    name: "SelectedShow",
-    component: SelectedShow
+    path: "/uses/:title",
+    name: "SelectedUses",
+    component: SelectedUses
   },
   {
     path: "/products",

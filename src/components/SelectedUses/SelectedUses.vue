@@ -37,7 +37,7 @@
                   <td>{{showDetails.time}}</td>
                   <td>{{showDetails.cost}}</td>
                   <td>
-                    <button @click="buyTicketForSelectedShow(showDetails.id, showName)">Buy Ticket</button>
+                    <button @click="buyTicketForSelectedUses(showDetails.id, showName)">Buy Ticket</button>
                   </td>
                 </tr>
               </tbody>
@@ -67,10 +67,10 @@
 </template>
 
 <script>
-module.exports = require("./SelectedShow.js");
+module.exports = require("./SelectedUses.js");
 </script>
 
-<style scoped src="./SelectedShow.css">
+<style scoped src="./SelectedUses.css">
 </style>
 
 

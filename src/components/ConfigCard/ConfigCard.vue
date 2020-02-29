@@ -26,7 +26,7 @@
             </p>
           </div>
           <div class="text-uppercase ml-2">
-            <b-button @click="selectedShow(use, index)" class="btn text-black mt-2 text-uppercase font-weight-bold">Select </b-button> 
+            <b-button @click="SelectedUses(use, index)" class="btn text-black mt-2 text-uppercase font-weight-bold">Select </b-button> 
             <b-button class="btn text-black mt-2 text-uppercase font-weight-bold">More info</b-button>
           </div>
         </div>
