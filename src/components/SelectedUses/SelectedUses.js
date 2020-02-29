@@ -16,23 +16,23 @@ export default Vue.extend({
       slider: "0",
       sliderValues: [
         {
-          label: "Not at all",
+          label: "Not spending at the moment",
           value: "0"
         },
         {
-          label: "A tiny bit",
+          label: "Thrifty, aren't we?",
           value: "1"
         },
         {
-          label: "Its ok",
+          label: "This is half your available funds",
           value: "2"
         },
         {
-          label: "Its very good",
+          label: "Significant amount put up for spending",
           value: "3"
         },
         {
-          label: "Its AMAZING!",
+          label: "Allocating all available funds!",
           value: "4"
         }
       ],
