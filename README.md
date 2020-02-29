@@ -1,5 +1,6 @@
 # Theatre-seating
 
+This app is being adapted from [Sophie van Wersch's](https://github.com/SophieMaryam) [Theatre-seating project](https://github.com/SophieMaryam/Theatre-seating)
 > A basic Vue.js project. Based more on vue functionality and use rather than design. 
 
 ## Build Setup
