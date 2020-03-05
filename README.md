@@ -1,7 +1,8 @@
 # Theatre-seating
 
 This app is being adapted from [Sophie van Wersch's](https://github.com/SophieMaryam) [Theatre-seating project](https://github.com/SophieMaryam/Theatre-seating)
-> A basic Vue.js project. Based more on vue functionality and use rather than design. 
+The app is a web app that allows users of a so-called "Space Card" to configure their cards. It is currently hosted on Firebase. Check it out [here](https://bison-hacks-1b8e0.firebaseapp.com).
+Also check out the [presentation](http://bit.ly/ChubaBISONPresentation) I prepared for the judges.
 
 ## Build Setup
 
